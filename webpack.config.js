@@ -11,16 +11,16 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   module: {
-  rules: [
+    rules: [
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
         options: {
-          transpileOnly: true // Use transpileOnly mode to speed up compilation
+          transpileOnly: true, // Use transpileOnly mode to speed up compilation
         },
         exclude: /node_modules/,
       },
     ],
   },
-  externals: ['react', 'react-dom', 'single-spa-react'],
+  externals: ['react', 'react-dom', 'single-spa', 'single-spa-react'],
 };
