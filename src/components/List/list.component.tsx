@@ -81,7 +81,7 @@ export default function ListComponent () {
     };
 
     return (
-      <>
+      <div style={{minHeight: '200px'}}>
         <Header><div className="content">News Reader</div></Header>
         <Container data-testid="story-container">
           {storyDetails?.sort((a, b) => b.time - a.time).map((story, index) => (
@@ -111,6 +111,6 @@ export default function ListComponent () {
           }
           <div id="end-of-list"></div>
         </Container>
-      </>
+      </div>
     );
 }
