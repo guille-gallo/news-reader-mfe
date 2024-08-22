@@ -82,7 +82,7 @@ export default function ListComponent () {
 
     return (
       <>
-        <Header><div className="content">Hacker News</div></Header>
+        <Header><div className="content">News Reader</div></Header>
         <Container data-testid="story-container">
           {storyDetails?.sort((a, b) => b.time - a.time).map((story, index) => (
             <StoryContainer key={story?.id || index}>
