@@ -109,9 +109,8 @@ export default function ListComponent () {
               </LoadingContainer>
             </StoryContainer>
           }
-          
+          <div id="end-of-list"></div>
         </Container>
-        <div id="end-of-list"></div>
       </>
     );
 }
