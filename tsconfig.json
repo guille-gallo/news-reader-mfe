@@ -1,6 +1,7 @@
 {
   "extends": "ts-config-single-spa",
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "jsx": "react-jsx",
     "declarationDir": "dist",
     "outDir": "./dist"
