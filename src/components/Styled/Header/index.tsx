@@ -8,7 +8,7 @@ const Header = styled.div`
     .content {
         font-size: 64px;
         font-weight: bold;
-        padding: 29px 0px 0px 0px;
+        padding: 29px 0px 0px 12px;
         color: #fff;
         max-width: 520px;
         overflow: hidden;
