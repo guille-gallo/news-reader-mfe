@@ -22,5 +22,5 @@ module.exports = {
       },
     ],
   },
-  externals: ['react', 'react-dom', 'single-spa', 'single-spa-react'],
+  externals: ['react', 'react-dom', 'single-spa'],
 };
